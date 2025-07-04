@@ -61,10 +61,10 @@ Every topic is structured into a dedicated markdown file, including command exam
 
 | Topic | Description |
 |-------|-------------|
-| [`error-handling.md`](Advance/Error_Handling.md) | Error trapping, exit codes, `set -euo pipefail` |
+| [`error-handling.md`](Advance/Error_handling.md) | Error trapping, exit codes, `set -euo pipefail` |
 | [`debug-trap.md`](Advance/Debug_Trap.md) | Debugging with `trap`, `set -x`, `DEBUG` tracing |
-| [`regex-patterns.md`](Advance/Regex_Patterns.md) | Use regex in Bash with `[[ =~ ]]`, `grep`, `awk` |
-| [`io-redirection.md`](Advance/IO_redirection.md) | Input/output, pipes, file descriptors |
+| [`regex-patterns.md`](Advance/Regex-Patterns.md) | Use regex in Bash with `[[ =~ ]]`, `grep`, `awk` |
+| [`io-redirection.md`](Advance/IO_Redirection.md) | Input/output, pipes, file descriptors |
 | [`concurrency.md`](Advance/Concurrency.md) | Background jobs, `xargs -P`, parallel execution |
 | [`libraries-getopts.md`](Advance/Libraries_getopts.md) | Modular code, function libraries, `getopts` CLI parser |
 | [`shellcheck-ci.md`](Advance/Shellcheck.md) | Lint Bash with `shellcheck`, use CI with GitHub Actions |
