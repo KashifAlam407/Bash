@@ -258,5 +258,5 @@ unalias ll
 ```bash
 echo "alias ll='ls -l'" >> ~/.bashrc
 source ~/.bashrc  # Apply changes immediately
-
+```
 ---
