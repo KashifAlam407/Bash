@@ -43,7 +43,7 @@ Every topic is structured into a dedicated markdown file, including command exam
 
 ---
 
-### 🔐 6. [File Permissions](File_Permissions.md)
+### 🔐 6. [File Permissions](File_Permission.md)
 > Secure and manage file access:
 - `chmod`, `chown`, `chgrp`
 
