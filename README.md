@@ -48,8 +48,8 @@ Bash (Bourne Again SHell) is the default shell on most Unix-like systems. It com
 
 ## Repository Structure
 Bash/
-├── 1_Introduction.md
-├── 2_Bash_Commands.md
+├── [1_Introduction.md]()
+├── [2_Bash_Commands.md](Basic_Command.md)
 ├── 3_Control_Flow.md
 ├── 4_Functions_and_Sourcing.md
 ├── 5_Variables_and_Parameters.md
