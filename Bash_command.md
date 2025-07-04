@@ -253,5 +253,10 @@ alias update='sudo apt update && sudo apt upgrade'
 unalias ll
 ```
 
-> Add to `~/.bashrc` to make permanent.
+💡 To make the alias permanent across terminal sessions, add it to your `~/.bashrc` file:
+
+```bash
+echo "alias ll='ls -l'" >> ~/.bashrc
+source ~/.bashrc  # Apply changes immediately
+
 ---
