@@ -1,140 +1,104 @@
-# 🐚 Bash Full Language
+# 🐚 Bash Language Mastery
 
-A complete guide to **Bash scripting** — from fundamental commands to advanced shell programming.
+This repository is a **complete learning resource for Bash scripting** — from beginner-friendly commands to advanced automation and CI/CD techniques.
 
----
-
-## 📘 Table of Contents
-- [About](#about)
-- [Use Cases](#use-cases)
-- [Bash vs Other Languages](#bash-vs-other-languages)
-- [Repository Structure](#repository-structure)
-- [Getting Started](#getting-started)
-- [Detailed Topics](#detailed-topics)
-- [Contribution](#contribution)
-- [License](#license)
-- [Connect with Me](#connect-with-me)
+Every topic is structured into a dedicated markdown file, including command examples, flags, real use cases, and best practices.
 
 ---
 
-## About
-Bash (Bourne Again SHell) is the default shell on most Unix-like systems. It combines scripting, automation, and command-line power—ideal for developers, sysadmins, and DevOps professionals.
+## 📂 Topics Covered
+
+### 🔰 1. [Bash Commands](Bash_command.md)
+> Learn foundational Bash commands such as:
+- `ls`, `cd`, `pwd`, `echo`, `cat`, `cp`, `mv`, `rm`
+- File and directory handling
+- Manual pages and `alias`
 
 ---
 
-## Use Cases
-- **Automate tasks**: Backups, deployments, log processing.
-- **System administration**: User management, package updates, system monitoring.
-- **DevOps scripting**: CI/CD pipelines, build automation.
-- **Server & Docker workflows**: Container builds, orchestration, and maintenance.
+### 📄 2. [Text Processing](Text_Processing.md)
+> Learn to manipulate text streams using:
+- `grep`, `awk`, `sed`, `cut`, `sort`, `head`, `tail`
+- Field extraction, search patterns, and formatting
 
 ---
 
-## Bash vs Other Programming Languages
-
-| Feature              | Bash                            | Python / JavaScript          | C / Java                          |
-|----------------------|----------------------------------|-------------------------------|------------------------------------|
-| Syntax complexity    | Simple syntax, tailored to shell context | High-level, general-purpose | Strict, compiled, verbose         |
-| Performance          | Fast for shell tasks, less so for heavy computation | Moderate, optimized libraries | High-performance compiled code    |
-| Error handling       | Limited, via exit codes & traps | Rich exception handling | Strong, structured exception / error handling |
-| Use case             | Shell automation, CLI tasks | General scripting & apps | System/software engineering       |
-
-**Why use Bash?**  
-- It's already installed on most servers.
-- Integrates seamlessly with Unix tools like `grep`, `awk`, `sed`.
-- Ideal for light automation and environment setup.
+### 📊 3. [System Monitoring](System_Monitoring.md)
+> Monitor your system using:
+- `ps`, `top`, `df`, `du`, `free`, `kill`, `uptime`
+- Process and memory tracking, disk usage
 
 ---
 
-## Repository Structure
-Bash/
-├── [1_Introduction.md]()
-├── [2_Bash_Commands.md](Basic_Command.md)
-├── 3_Control_Flow.md
-├── 4_Functions_and_Sourcing.md
-├── 5_Variables_and_Parameters.md
-├── 6_Operators_and_Expressions.md
-├── 7_Loops_and_Iterations.md
-├── 8_File_IO_and_Redirection.md
-├── 9_Error_Handling_and_Logging.md
-├── 10_Debugging_and_Traps.md
-├── LICENSE
-└── README.md
+### 🌐 4. [Networking](Networking.md)
+> Bash for networking tasks:
+- `ping`, `curl`, `wget`, `ssh`, `scp`, `rsync`
+- Download, transfer, and remote connections
 
 ---
 
-## Getting Started
-1. **Clone the repo**  
+### 📦 5. [File Compression](File_Compression.md)
+> Work with archives and compression:
+- `zip`, `unzip`, `tar`
+
+---
+
+### 🔐 6. [File Permissions](File_Permissions.md)
+> Secure and manage file access:
+- `chmod`, `chown`, `chgrp`
+
+---
+
+### 📜 7. [Scripting](Scripting.md)
+> Write and manage shell scripts:
+- Syntax, variables, data types
+- Operators, conditionals, loops, functions, arrays
+- Task scheduling with `cron`
+
+---
+
+## 🧠 Advanced Bash (Located in `advance/`)
+
+| Topic | Description |
+|-------|-------------|
+| [`error-handling.md`](Advance/Error_Handling.md) | Error trapping, exit codes, `set -euo pipefail` |
+| [`debug-trap.md`](Advance/Debug_Trap.md) | Debugging with `trap`, `set -x`, `DEBUG` tracing |
+| [`regex-patterns.md`](Advance/Regex_Patterns.md) | Use regex in Bash with `[[ =~ ]]`, `grep`, `awk` |
+| [`io-redirection.md`](Advance/IO_redirection.md) | Input/output, pipes, file descriptors |
+| [`concurrency.md`](Advance/Concurrency.md) | Background jobs, `xargs -P`, parallel execution |
+| [`libraries-getopts.md`](Advance/Libraries_getopts.md) | Modular code, function libraries, `getopts` CLI parser |
+| [`shellcheck-ci.md`](Advance/Shellcheck.md) | Lint Bash with `shellcheck`, use CI with GitHub Actions |
+
+---
+
+## 🚀 How to Use This Repo
+
+1. **Clone it:**
    ```bash
-   git clone https://github.com/KashifAlam407/Bash.git
+   git clone https://github.com/KashifAlam407/Bash
    cd Bash
-Explore each topic file for in-depth explanations and code samples.
+   ```
+
+2. **Browse by topic:**
+   - Open any `.md` file to read concepts and run examples.
+   - Scripts are written to run directly in any Bash environment.
+
+3. **Use as a reference:**
+   - Perfect for beginners, sysadmins, DevOps engineers, or anyone automating tasks with Bash.
 
 ---
 
-## Run examples by sourcing scripts:
-source 2_Bash_Commands.md
-or convert .md to .sh.
+## ✍️ Contributing
+
+You are welcome to:
+- Open issues or suggestions
+- Submit pull requests with improvements
+- Help expand sections with more examples
 
 ---
 
-## Detailed Topics
-Deep dive into each subject:
+## 📜 License
 
-1_Introduction – What Bash is and why use it
+This project is licensed under the [MIT License](LICENSE).
 
-2_Bash_Commands – Core commands and syntax
-
-3_Control_Flow – if, case, and test expressions
-
-4_Functions_and_Sourcing – Writing and reusing Bash functions
-
-5_Variables_and_Parameters – Variable types, env vars, and parameter expansion
-
-6_Operators_and_Expressions – Arithmetic and string operations
-
-7_Loops_and_Iterations – for, while, until, and process loops
-
-8_File_IO_and_Redirection – Redirects, pipes, and here-documents
-
-9_Error_Handling_and_Logging – Exit codes, trap, and script logging
-
-10_Debugging_and_Traps – set -x, error traps, and best practices
-
-(Each file includes examples, tips & real-world use cases.)
-
----
-
-## Contribution
-Contributions are welcome! Please:
-
-### Fork the repo
-
-Create a branch: 
-``` bash
-git checkout -b feature/awesome-topic
-```
-
-Add or improve .md files
-
-Submit a pull request
-
----
-
-## License
-This project is licensed under MIT — see the LICENSE file.
-
----
-
-## Connect with Me
-Stay in touch or follow my work:
-
-📧 Email: kashifalam0407@gmail.com
-
-🐙 GitHub: @KashifAlam407
-
-► YouTube: kashifalam
-
-📸 Instagram: @kashifalam0407
-
----
+> Made with ❤️ by [Kashif Alam](https://github.com/KashifAlam407)
